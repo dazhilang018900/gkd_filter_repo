@@ -7,19 +7,14 @@ export default defineGkdApp({
     {
       key: 3,
       name: '页面覆盖广告',
-      activityIds: [
-        'com.csdy.yedw.ui.book.read.ReadBookActivity',
-      ],
+      activityIds: ['com.csdy.yedw.ui.book.read.ReadBookActivity'],
       rules: [
         {
           key: 0,
-          matches:
-            'FrameLayout[childCount=1] > @ImageView[height < 100]',
-          snapshotUrls: [
-            'https://i.gkd.li/i/12892825',
-          ],
+          matches: 'FrameLayout[childCount=1] > @ImageView[height < 100]',
+          snapshotUrls: ['https://i.gkd.li/i/12892825'],
         },
-      ]
+      ],
     },
   ],
 });
